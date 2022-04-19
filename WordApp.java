@@ -18,7 +18,11 @@ public class WordApp{
 		for(int i=0;i<words.length;i++){
 			System.out.printf("%s>>",words[i].ja);
 			String ans = scan.next();
-			words[i].check(ans);
+			if(words[i].check(ans)){
+				System.out.println("正解！");
+			}else{
+				System.out.printf("不正解！%sの英単語は%s%n",words[i].ja,words[i].en);
+			}
 		}
 		System.out.printf("全%d問中%d問正解",Word.total,Word.correct);
 
