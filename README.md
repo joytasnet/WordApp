@@ -47,3 +47,14 @@ boolean check(String ans){}
 
 2. WordAppクラスを作成し、実行例のようになるように作成する
 
+### 資料
+("ぞう","elephant"),  
+("しろくま","polarbear"),  
+("くじら","whale"),  
+("ペンギン","penguin"),  
+("カンガルー","kangaroo"),  
+("ライオン","lion"),  
+("ひと","human"),  
+("いぬ","dog"),  
+("ねこ","cat"),  
+("あり","ant"),  
