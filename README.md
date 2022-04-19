@@ -29,8 +29,8 @@
 フィールド	  
 static int total; (総問題数)  
 static int correct; (正解数)  
-String ja; (日本語)	 
-String en; (英語)	  
+String ja; (日本語)	  
+String en; (英語)	   
 
 コンストラクタ    
 引数２つ   
